@@ -1,0 +1,1 @@
+print("Checking connectivity to the document directory and git...")
