@@ -1,1 +1,1 @@
-print("User Git global profile changed")
+print("User Git global profile changed now with GPG signingkey")
