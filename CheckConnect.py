@@ -1,1 +1,1 @@
-print("Checking connectivity to the document directory and git...")
+print("User Git global profile changed")
