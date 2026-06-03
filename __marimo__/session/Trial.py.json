@@ -1,0 +1,99 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.8",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "78c57600cc921b1c524f23129ac2e03f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "83edf6d26f621510753ce615d6e9f886",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "301bb0347777660566099f2927f161af",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "f4b1dc5cdc0359c26e0beeac6c767e86",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "1f21f2ac34ee3f05f7c0b6388e8cbd28",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Loading documents from C:\\Users\\ASUS\\Omnisearch-RAG\\data...\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "\r  0%|          | 0/2 [00:00<?, ?it/s]\r100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 2/2 [00:00<00:00, 858.52it/s]\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\nDocument 1:\n    Source: C:\\Users\\ASUS\\Omnisearch-RAG\\data\\Google.txt\n    Content length: 232201 characters\n    Content preview: \ufeffGoogle\nGoogle LLC (/\u02c8\u0261u\u02d0\u0261\u0259l/ \u24d8 , GOO-g\u0259l) is an Google LLC\nAmerican multinational corporation and t...\n    Metadata: {'source': 'C:\\\\Users\\\\ASUS\\\\Omnisearch-RAG\\\\data\\\\Google.txt'}\n\nDocument 2:\n    Source: C:\\Users\\ASUS\\Omnisearch-RAG\\data\\Microsoft.txt\n    Content length: 201014 characters\n    Content preview: \ufeffMicrosoft\nMicrosoft Corporation is an American multinational Microsoft Corporation\ncorporation and ...\n    Metadata: {'source': 'C:\\\\Users\\\\ASUS\\\\Omnisearch-RAG\\\\data\\\\Microsoft.txt'}\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "uaai",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
