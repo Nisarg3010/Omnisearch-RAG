@@ -69,24 +69,31 @@ def _(DirectoryLoader, TextLoader, os):
 @app.cell
 def _(docs_path, load_documents):
     documents = load_documents(docs_path)
-    return
+    return (documents,)
 
 
 @app.cell(column=1)
+def _():
+    from langchain_text_splitters import CharacterTextSplitter
+
+    return (CharacterTextSplitter,)
+
+
+@app.cell
 def _(CharacterTextSplitter):
     def split_documents(documents, chunk_size=1000, chunk_overlap=0):
         """Split documents into smaller chunks with overlap"""
         print("Splitting documents into chunks...")
-    
+
         text_splitter = CharacterTextSplitter(
             chunk_size=chunk_size, 
             chunk_overlap=chunk_overlap
         )
-    
+
         chunks = text_splitter.split_documents(documents)
-    
+
         if chunks:
-    
+
             for i, chunk in enumerate(chunks[:5]):
                 print(f"\n--- Chunk {i+1} ---")
                 print(f"Source: {chunk.metadata['source']}")
@@ -94,12 +101,28 @@ def _(CharacterTextSplitter):
                 print(f"Content:")
                 print(chunk.page_content)
                 print("-" * 50)
-        
+
             if len(chunks) > 5:
                 print(f"\n... and {len(chunks) - 5} more chunks")
-    
+
         return chunks
 
+    return (split_documents,)
+
+
+@app.cell
+def _(documents, split_documents):
+    chunks = split_documents(documents)
+    return
+
+
+@app.cell
+def _():
+    return
+
+
+@app.cell
+def _():
     return
 
 

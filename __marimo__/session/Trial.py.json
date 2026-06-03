@@ -78,7 +78,7 @@
         {
           "type": "stream",
           "name": "stderr",
-          "text": "\r  0%|          | 0/2 [00:00<?, ?it/s]\r100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 2/2 [00:00<00:00, 858.52it/s]\n",
+          "text": "\r  0%|          | 0/2 [00:00<?, ?it/s]\r100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 2/2 [00:00<00:00, 1568.55it/s]\n",
           "mimetype": "text/plain"
         },
         {
@@ -90,7 +90,71 @@
       ]
     },
     {
-      "id": "uaai",
+      "id": "dLDL",
+      "code_hash": "304e670c8c57bfc5f7ed14b3c3dbbac3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "37445c3983490a3c272c5485995ff9fb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nqgm",
+      "code_hash": "0140d593b96f59da84834f1d7a32c1cf",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Splitting documents into chunks...\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "Created a chunk of size 1055, which is longer than the specified 1000\nCreated a chunk of size 1436, which is longer than the specified 1000\nCreated a chunk of size 1039, which is longer than the specified 1000\nCreated a chunk of size 1078, which is longer than the specified 1000\nCreated a chunk of size 1043, which is longer than the specified 1000\nCreated a chunk of size 1019, which is longer than the specified 1000\nCreated a chunk of size 1068, which is longer than the specified 1000\nCreated a chunk of size 1211, which is longer than the specified 1000\nCreated a chunk of size 1450, which is longer than the specified 1000\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\n--- Chunk 1 ---\nSource: C:\\Users\\ASUS\\Omnisearch-RAG\\data\\Google.txt\nLength: 600 characters\nContent:\n\ufeffGoogle\nGoogle LLC (/\u02c8\u0261u\u02d0\u0261\u0259l/ \u24d8 , GOO-g\u0259l) is an Google LLC\nAmerican multinational corporation and technology\ncompany focusing on online advertising, search engine\ntechnology, cloud computing, computer software,\nquantum computing, e-commerce, consumer\nelectronics, and artificial intelligence (AI).[9] It has\nbeen referred to as \"the most powerful company in the The Google logo used since 2015\nworld\" by the BBC[10] and is one of the world's most\nvaluable brands.[11][12][13] Google's parent company,\nAlphabet Inc., is one of the five Big Tech companies\nalongside Amazon, Apple, Meta, and Microsoft.\n--------------------------------------------------\n\n--- Chunk 2 ---\nSource: C:\\Users\\ASUS\\Omnisearch-RAG\\data\\Google.txt\nLength: 867 characters\nContent:\nGoogle was founded on September 4, 1998, by\nAmerican computer scientists Larry Page and Sergey\nBrin. Together, they own about 14% of its publicly\nlisted shares and control 56% of its stockholder voting\npower through super-voting stock. The company went\npublic via an initial public offering (IPO) in 2004. In Google's headquarters, the Googleplex\n2015, Google was reorganized as a wholly owned\nsubsidiary of Alphabet Inc. Google is Alphabet's Formerly Google Inc. (1998\u20132017)\n\nlargest subsidiary and is a holding company for Company type Subsidiary\nAlphabet's internet properties and interests. Sundar Traded as Nasdaq:\u00a0GOOGL\nPichai was appointed CEO of Google on October 24, Nasdaq:\u00a0GOOG\n2015, replacing Larry Page, who became the CEO of\n\nIndustry\nAlphabet. On December 3, 2019, Pichai also became Internet\n\nthe CEO of Alphabet.[14] Cloud computing\nComputer software\n--------------------------------------------------\n\n--- Chunk 3 ---\nSource: C:\\Users\\ASUS\\Omnisearch-RAG\\data\\Google.txt\nLength: 977 characters\nContent:\nAfter the success of its original service, Google Search Computer hardware\n(often known simply as \"Google\"), the company has Artificial intelligence\nrapidly grown to offer a multitude of products and Advertising\nservices. These products address a wide range of use Founded September\u00a04, 1998[a] in\ncases, including email (Gmail), navigation and Menlo Park, California,\nmapping (Waze, Maps, and Earth), cloud computing United States\n(Cloud), web navigation (Chrome), video sharing Founders Larry Page\n(YouTube), productivity (Workspace), operating\n\nSergey Brin\nsystems (Android and ChromeOS), cloud storage\n(Drive), language translation (Translate), photo storage Headquarters Googleplex, Mountain View,\n\n(Photos), videotelephony (Meet), smart home (Nest), California, U.S.\n\nsmartphones (Pixel), wearable technology (Pixel Area served Worldwide\n\nWatch and Fitbit), music streaming (YouTube Music), Key people Sundar Pichai (CEO)\nvideo on demand (YouTube TV), AI (Google Assistant\n--------------------------------------------------\n\n--- Chunk 4 ---\nSource: C:\\Users\\ASUS\\Omnisearch-RAG\\data\\Google.txt\nLength: 675 characters\nContent:\nand Gemini), machine learning APIs (TensorFlow), AI Ruth Porat (President and\nchips (TPU), and more. Many of these products and CIO)\nservices are dominant in their respective industries, as Anat Ashkenazi (CFO)\nis Google Search. Discontinued Google products Thomas Kurian (CEO of\ninclude gaming (Stadia),[15] Glass, Google+, Reader, Google Cloud)\nPlay Music, Nexus, Hangouts, and Inbox by Products Google Search\nGmail.[16][17] Google's other ventures outside of Android\ninternet services and consumer electronics include Nest\nquantum computing (Sycamore), self-driving cars\n\nPixel\n(Waymo), smart cities (Sidewalk Labs), and\ntransformer models (Google DeepMind).[18] Workspace\n--------------------------------------------------\n\n--- Chunk 5 ---\nSource: C:\\Users\\ASUS\\Omnisearch-RAG\\data\\Google.txt\nLength: 970 characters\nContent:\nFitbit\nGoogle Search and YouTube are the two most-visited Waze\nwebsites worldwide, followed by Facebook and YouTube\nTwitter (now known as X). Google is also the largest Gemini\nsearch engine, mapping and navigation application, Full list\nemail provider, office suite, online video platform, Number of 53,861 (2012)\u00a0\nphoto and cloud storage provider, mobile operating employees\nsystem, web browser, machine learning framework, Parent Alphabet Inc.\nand AI virtual assistant provider in the world as\nmeasured by market share.[19] On the list of most Subsidiaries Adscape\n\nvaluable brands, Google is ranked second by Forbes as Cameyo\n\nof January 2022[20] and fourth by Interbrand as of Charleston Road Registry\nFebruary 2022.[21] The company has received DeepMind\nsignificant criticism involving issues such as privacy Endoxon\nconcerns, tax avoidance, censorship, search neutrality, FeedBurner\nantitrust, and abuse of its monopoly position.[22]\n\nImageAmerica\nKaltix\nNest Labs\n--------------------------------------------------\n\n... and 527 more chunks\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "Scge",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Wuna",
       "code_hash": null,
       "outputs": [],
       "console": []
